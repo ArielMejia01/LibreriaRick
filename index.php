@@ -13,24 +13,26 @@
 <html>
 	<head>
 		<title>Biblioteca PrograWeb</title>
-		<link rel="stylesheet" type="text/css" href="css/index_style.css" />
+		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time(); ?>" />
 	</head>
 	<body>
 		<div id="allTheThings">
+
 			<div id="member">
 				<a href="member">
-					<img src="img/ic_member.svg" width="250px" height="auto"/><br />
-					&nbsp;Miembro
+					<img src="img/ic_member.svg" />
+					<p>Miembro</p>
 				</a>
 			</div>
-			<div id="verticalLine">
+			
 				<div id="librarian">
+					<div id="verticalLine"></div>
 					<a id="librarian-link" href="librarian">
-						<img src="img/ic_librarian.svg" width="250px" height="auto" /><br />
-						&nbsp;&nbsp;&nbsp;Administración
+						<img src="img/ic_librarian.svg" />
+						<p>Administracion</p>
 					</a>
 				</div>
-			</div>
+			
 		</div>
 	</body>
 </html>

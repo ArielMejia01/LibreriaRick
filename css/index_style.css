@@ -1,11 +1,10 @@
 #allTheThings {
-  width: 90%;
-  max-width: 800px;
-  text-align: center;
-  margin: 8em auto;
-  font-size: 1.3rem;
-  color: #94aab0;
-  display: block;
+
+  width:100vw;
+  height:70vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a{
@@ -20,7 +19,8 @@ a{
 #verticalLine {
 	display: inline-block;
 	margin-left: 20px;
-    border-left: solid #343642;
+  border-left: solid #343642;
+  height: 300px;
 }
 
 #librarian-link{
@@ -29,10 +29,22 @@ a{
 
 #member, #librarian
 {
-	transition: all .2s ease-in-out;
+	display:flex;
+  justify-content: center;
+  align-items: center;
 }
-
+#allTheThings a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #member:hover, #librarian:hover
 {
 	transform: scale(1.1);
+}
+
+#allTheThings img{
+  width:200px;
+  height:200px;
 }
