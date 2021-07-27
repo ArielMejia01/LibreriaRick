@@ -7,7 +7,7 @@
 		<header>
 			<div id="cd-logo">
 				<a href="../">
-					<img src="img/RickLogo.svg" alt="Logo" />
+					<img src="img/ic_logo.svg" alt="Logo" />
 					<p>Librería Rick </p>
 					
 				</a>
