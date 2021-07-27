@@ -7,9 +7,10 @@
 <html>
 	<head>
 		<title>Registro</title>
-		<link rel="stylesheet" type="text/css" href="../css/global_styles.css">
-		<link rel="stylesheet" type="text/css" href="../css/form_styles.css">
-		<link rel="stylesheet" href="css/register_style.css">
+		<link rel="stylesheet" type="text/css" href="../css/header_style.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" type="text/css" href="../css/global_styles.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" type="text/css" href="../css/form_styles.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time();?>">
 	</head>
 	<body>
 		<form class="cd-form" method="POST" action="#">
