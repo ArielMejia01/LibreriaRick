@@ -14,25 +14,25 @@
 		<div id="allTheThings">
 			<a href="pending_registrations.php">
 				<input type="button" value="Solicitudes de Registro de Usuario Pendientes" />
-			</a><br />
+			</a>
 			<a href="pending_book_requests.php">
 				<input type="button" value="Solicitudes de Libros Pendientes" />
-			</a><br />
+			</a>
 			<a href="insert_book.php">
 				<input type="button" value="Agregar un Nuevo Libro" />
-			</a><br />
+			</a>
 			<a href="update_copies.php">
 				<input type="button" value="Actualizar el número de copias de un Libro" />
-			</a><br />
+			</a>
 			<a href="update_balance.php">
 				<input type="button" value="Actualiza el balance de un Miembro" />
-			</a><br />
+			</a>
 			<a href="users.php">
 				<input type="button" value="Registro de Administradores" />
-			</a><br />
+			</a>
 			<a href="due_handler.php">
 				<input type="button" value="Recordatorios para hoy" />
-			</a><br /><br />
+			</a>
 		</div>
 	</body>
 </html>
