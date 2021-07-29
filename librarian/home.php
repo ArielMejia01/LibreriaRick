@@ -8,6 +8,7 @@
 	<head>
 		<title>Bienvenido Administrador</title>
 		<link rel="stylesheet" type="text/css" href="css/home_style.css?v=<?PHP echo time();?>" />
+		<link rel="stylesheet" href="css/header_librarian_style.css?v=<?PHP echo time(); ?>">
 	</head>
 	<body>
 		<div id="allTheThings">
