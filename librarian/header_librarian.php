@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+		<link rel="stylesheet" href="./css/header_style.css?v=<?PHP echo time(); ?>">
 		<link rel="stylesheet" type="text/css" href="css/header_librarian_style.css?v=<?PHP echo time(); ?>" />
 	</head>
 	<body>

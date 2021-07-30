@@ -1,44 +1,11 @@
-body {
-  font-size: 100%;
-  font-family: "Open Sans", sans-serif;
-  background-color: white;
-  margin: 0;
-}
-
-#cd-logo img{
-  max-width: 50px;
-}
-
+/*----------Drowdown----------*/
 header {
-  position: relative;
-  height: 5rem;
-  background: #003f66;
   display:flex;
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0 5% 0 0;
 }
-
-header a{
-  text-decoration: none;
-}
-
-#cd-logo a{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  white-space: nowrap;
-}
-
-header #cd-logo p{
-  color: #23aece;
-  font-weight: bold;
-}
-
-/*----------Drowdown----------*/
-
 header a {
 	text-decoration: none;
 }
@@ -70,7 +37,7 @@ header a {
 
 .dropdown-content {
     display: none;
-	  right: 1.5rem;
+	  right: 5%;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
