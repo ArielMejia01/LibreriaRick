@@ -8,14 +8,17 @@
 <html>
 	<head>
 		<title>Ingreso de Miembro</title>
-		<link rel="stylesheet" type="text/css" href="../css/header_style.css?v=<?PHP echo time();?>">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="stylesheet" type="text/css" href="../css/global_styles.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" type="text/css" href="../css/header_style.css?v=<?PHP echo time();?>">
+
 		<link rel="stylesheet" type="text/css" href="../css/form_styles.css?v=<?PHP echo time();?>">
 		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time();?>">
 	</head>
-	<body>
+	<section>
 		<form class="cd-form" method="POST" action="#">
-		
 			<legend>Ingreso de Miembro</legend>
 			
 			<div class="error-message" id="error-message">
@@ -31,12 +34,10 @@
 			</div>
 			
 			<input type="submit" value="Ingresar" name="m_login" />
-			
-			<br /><br /><br /><br />
-			
-			<p align="center">¿No tienes cuenta aún?&nbsp;<a href="register.php">Regístrate</a>
 		</form>
-	</body>
+
+		<p align="center" >¿No tienes cuenta aún?&nbsp;<a href="register.php">Regístrate</a>
+	</section>
 	
 	<?php
 		if(isset($_POST['m_login']))

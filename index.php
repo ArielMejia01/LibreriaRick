@@ -13,6 +13,10 @@
 <html>
 	<head>
 		<title>Biblioteca PrograWeb</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="./css/global_styles.css?v=<?PHP echo time(); ?>">
 		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time(); ?>" />
 	</head>
 	<body>
@@ -25,13 +29,14 @@
 				</a>
 			</div>
 			
-				<div id="librarian">
-					<div id="verticalLine"></div>
-					<a id="librarian-link" href="librarian">
-						<img src="img/ic_librarian.svg" />
-						<p>Administracion</p>
-					</a>
-				</div>
+			<div id="verticalLine"></div>
+			
+			<div id="librarian">	
+				<a id="librarian-link" href="librarian">
+					<img src="img/ic_librarian.svg" />
+					<p>Administracion</p>
+				</a>
+			</div>
 			
 		</div>
 	</body>

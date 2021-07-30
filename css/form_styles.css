@@ -1,3 +1,12 @@
+section{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 5rem);
+}
+
+
 /*----------Form styles----------*/
 .cd-form {
   width: 90%;
@@ -114,13 +123,8 @@
   font-weight: bold;
   float: right;
   cursor: pointer;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
   appearance: none;
+  width: 100%;
 }
 
 .cd-form input[type="submit"]:focus {
