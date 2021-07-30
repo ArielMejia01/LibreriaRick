@@ -8,12 +8,16 @@
 <html>
 	<head>
 		<title>Ingreso Administrador</title>
-		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time(); ?>" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="stylesheet" type="text/css" href="../css/global_styles.css?v=<?PHP echo time(); ?>">
+		<link rel="stylesheet" type="text/css" href="../css/header_style.css?v=<?PHP echo time();?>">
+
+		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time(); ?>" />
 		<link rel="stylesheet" type="text/css" href="../css/form_styles.css?v=<?PHP echo time(); ?>">
-		<link rel="stylesheet" type="text/css" href="css/index_style.css?v=<?PHP echo time(); ?>">
 	</head>
-	<body>
+	<section>
 		<form class="cd-form" method="POST" action="#">
 		
 		<legend>Ingreso Administrador</legend>
@@ -33,7 +37,7 @@
 			<input type="submit" value="Ingresar" name="l_login"/>
 			
 		</form>
-	</body>
+	</sect>
 	
 	<?php
 		if(isset($_POST['l_login']))

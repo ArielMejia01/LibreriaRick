@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
-		<link rel="stylesheet" type="text/css" href="css/header_librarian_style.css" />
+		<link rel="stylesheet" type="text/css" href="css/header_librarian_style.css?v=<?PHP echo time(); ?>" />
 	</head>
 	<body>
 		<header>
@@ -25,6 +25,7 @@
 					<a href="../logout.php">Cerrar Sesión</a>
 				</div>
 			</div>
+			
 		</header>
 	</body>
 </html>
