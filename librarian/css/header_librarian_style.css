@@ -48,10 +48,9 @@ header #cd-logo img , header #cd-logo p{
 }
 
 header #cd-logo p{
-	font-size: 2.2rem !important;
 	color: #23aece;;
 	font-weight: bold;
-	font-size: 1.4rem;
+	font-size: 1.4rem ;
 }
 
 header::after {

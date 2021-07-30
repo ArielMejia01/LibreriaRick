@@ -38,5 +38,7 @@ body{
 #allTheThings input:hover{
 	background-color: #23aece;
 }
-
+#cd-logo p{
+	font-size: 2.4rem !important;
+}
 
