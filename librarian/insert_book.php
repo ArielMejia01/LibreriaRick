@@ -7,11 +7,16 @@
 
 <html>
 	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>Agregar Libro</title>
 		
+		<link rel="stylesheet" type="text/css" href="../css/global_styles.css?v=<?PHP echo time();?>">
 		<link rel="stylesheet" type="text/css" href="../css/form_styles.css?v=<?PHP echo time(); ?>" />
+		<link rel="stylesheet" href="css/header_librarian_style.css?v=<?PHP echo time(); ?>">
 		<link rel="stylesheet" href="css/insert_book_style.css?v=<?PHP echo time(); ?>">
-		<link rel="stylesheet" href="./css/header_librarian_style.css?v=<?PHP echo time(); ?>">
+		
 	</head>
 	<body>
 		<form class="cd-form" method="POST" action="#">
@@ -56,7 +61,7 @@
 				<br />
 				<input class="b-isbn" type="submit" name="b_add" value="Agregar" />
 		</form>
-	<body>
+	</body>
 	
 	<?php
 		if(isset($_POST['b_add']))

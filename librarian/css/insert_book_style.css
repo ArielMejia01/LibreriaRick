@@ -35,3 +35,11 @@
 .cd-form [required].b-copies {
   background: url("../img/ic_book_copies.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+#cd-logo p {
+  font-size: 2.4rem !important;
+}
