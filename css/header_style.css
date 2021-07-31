@@ -25,6 +25,7 @@ header a{
     flex-direction: row;
     align-items: center;
     white-space: nowrap;
+    margin: 0 0 0 5%;
 }
 
 header #cd-logo p{
