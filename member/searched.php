@@ -16,7 +16,10 @@
 	</head>
 	<body>
 		<?php
-			$liked = $_POST['m_libro'];
+			$liked = "";
+						if (isset($_POST['m_libro'])) {
+							$liked = $_POST['m_libro'];
+						}
 			$query = $con->prepare("SELECT * FROM book WHERE title LIKE '%$liked%';");
 			$query->execute();
 			$result = $query->get_result();
