@@ -95,3 +95,12 @@
 .cd-form .error-field {
     border-color: #e94b35 !important;
 }
+
+html {
+    font-size: 62.5%;
+  }
+  
+  #cd-logo p{
+      font-size: 2.4rem !important;
+  }
+  
