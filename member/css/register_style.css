@@ -32,3 +32,11 @@
 .cd-form [required].m-balance {
   background: url("../img/ic_member_balance.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+#cd-logo p {
+  font-size: 2.4rem !important;
+}
