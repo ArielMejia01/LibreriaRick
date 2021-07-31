@@ -28,10 +28,10 @@ header a {
 .dropbtn::before{
   content:'';
   display:block;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   background: url("../img/ic_librarian.svg") no-repeat center;
-  background-size: 2rem;
+  background-size: 3rem;
 }
 
 
