@@ -7,10 +7,12 @@
 <html>
 	<head>
 		<title>Bienvenido</title>
-		<link rel="stylesheet" type="text/css" href="../css/global_styles.css">
-		<link rel="stylesheet" type="text/css" href="css/home_style.css">
-		<link rel="stylesheet" type="text/css" href="../css/custom_radio_button_style.css">
-		<link rel="stylesheet" type="text/css" href="../css/form_styles.css">
+		<link rel="stylesheet" type="text/css" href="../css/header_style.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" type="text/css" href="../css/global_styles.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" type="text/css" href="../css/form_styles.css?v=<?PHP echo time();?>">
+		
+		<link rel="stylesheet" type="text/css" href="../css/custom_radio_button_style.css?v=<?PHP echo time();?>">
+		<link rel="stylesheet" href="./css/home_style.css?v=<?PHP echo time(); ?>">
 
 	</head>
 	
