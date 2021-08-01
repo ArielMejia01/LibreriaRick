@@ -48,13 +48,13 @@
 			$result = $query->get_result();
 			
 			if(mysqli_num_rows($result) != 1)
-				echo error_without_field("Invalid username/password combination");
+				echo error_without_field("Nombre de usuario o password incorrecto.");
 			else 
 			{
 				$resultRow = mysqli_fetch_array($result);
 				$balance = $resultRow[1];
 				if($balance < 0)
-					echo error_without_field("Your account has been suspended. Please contact a librarian for further information");
+					echo error_without_field("Tu cuanta ha sido suspendida. Contactate con el administrador de la libreria para mas informacion.");
 				else
 				{
 					$_SESSION['type'] = "member";
