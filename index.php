@@ -18,6 +18,7 @@
 		
 		<link rel="stylesheet" href="./css/global_styles.css?v=<?PHP echo time(); ?>">
 		<link rel="stylesheet" type="text/css" href="./css/index_style.css?v=<?PHP echo time(); ?>" />
+		<link rel="stylesheet" href="./css/wallpaper_rick.css?v=<?PHP echo time(); ?>">
 	</head>
 	<body>
 		<div id="allTheThings">
@@ -34,7 +35,7 @@
 			<div id="librarian">	
 				<a id="librarian-link" href="librarian">
 					<img src="img/ic_librarian.svg" />
-					<p>Administracion</p>
+					<p>Administrador</p>
 				</a>
 			</div>
 			
