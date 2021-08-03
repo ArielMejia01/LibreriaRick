@@ -14,6 +14,10 @@ header {
     height: 5rem;
     background: #003f66;
     padding:0.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a{
@@ -33,5 +37,37 @@ header #cd-logo p{
     font-weight: bold;
     font-size: 1.4rem;
 }
+.opcionesEnElHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.opcionesEnElHeader div a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #fafeff;
+}
+.opcionesEnElHeader div a:hover{
+    color: #23aece;
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 736px)
+{
+    .opcionesEnElHeader div a p{
+        display: none;
+    }
+    .opcionesEnElHeader img{
+        width: 2rem;
+        height: 2rem;
+    }
+} 
 
 

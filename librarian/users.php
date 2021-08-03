@@ -14,6 +14,7 @@
 
 		<link rel="stylesheet" type="text/css" href="css/home_style.css" />
 		<link rel="stylesheet" href="css/header_librarian_style.css?v=<?PHP echo time(); ?>">
+		<link rel="stylesheet" href="./css/users.css?v=<?PHP echo time(); ?>">
 	</head>
 	<body>
 		<div id="allTheThings">
