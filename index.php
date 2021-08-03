@@ -23,21 +23,9 @@
 	<body>
 		<div id="allTheThings">
 
-			<div id="member">
-				<a href="member">
-					<img src="img/ic_member.svg" />
-					<p>Miembro</p>
-				</a>
-			</div>
-			
-			<div id="verticalLine"></div>
-			
-			<div id="librarian">	
-				<a id="librarian-link" href="librarian">
-					<img src="img/ic_librarian.svg" />
-					<p>Administrador</p>
-				</a>
-			</div>
+			<p class="frase" >A veces la ciencia es más arte que ciencia, Morty. Mucha gente no lo entiende.</p>
+
+			<p class="integrantes" >2021 © Alex Allan Ariel Yovany Gustavo Daniel David Cesar</p>
 			
 		</div>
 	</body>

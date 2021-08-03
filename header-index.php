@@ -11,6 +11,23 @@
                     <p>Libreria Rick</p>
                 </div>
             </a>
+
+            <div class="OpcionesEnElHeader" >
+				
+                <div id="member">
+					<a href="member">
+						<img src="img/ic_member.svg" />
+						<p>Miembro</p>
+					</a>
+				</div>
+
+				<div id="librarian">	
+					<a id="librarian-link" href="librarian">
+						<img src="img/ic_librarian.svg" />
+						<p>Administrador</p>
+					</a>
+				</div>
+			</div>
         </header>
     </body>
 </html>
