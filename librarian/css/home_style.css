@@ -8,11 +8,11 @@ body{
 
 #allTheThings{
     margin: 4em auto;
-	margin-right: 4rem;
-	margin-left: 4rem;
+	margin-right: 5%;
+	margin-left: 5%;
     color: #94aab0;
 	display: grid;
-	gap: 7rem;
+	gap: 2rem;
 	grid-template-columns: repeat(3,1fr);
 	grid-template-rows: repeat(3,1fr);
 }
@@ -26,7 +26,7 @@ body{
 	text-align: left;
 	width: 100%;
 	height: 5rem;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	background-color: inherit;
 	color: #003f66;;
 	font-weight: bold;
@@ -87,10 +87,6 @@ and (max-width: 736px)
 	#allTheThings{
 		grid-template-columns: repeat(1,1fr);
 		grid-template-rows: repeat(7,1fr);
-	}
-	
-	#allTheThings input{
-		font-size:1.5rem;
 	}
 
 	#allTheThings a:nth-child(7),
