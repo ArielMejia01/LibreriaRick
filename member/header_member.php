@@ -29,7 +29,7 @@
 							echo "Mi crédito: L.".$balance;
 						?>
 					</a>
-					<a href="my_books.php">Mis Libros</a>
+					<!--<a href="my_books.php">Mis Libros</a>-->
 					<a href="../logout.php">Cerrar Sesión</a>
 				</div>
 			</div>

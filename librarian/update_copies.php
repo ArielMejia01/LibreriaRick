@@ -35,6 +35,21 @@
 						
 				<input type="submit" name="b_add" value="Agregar copias" />
 		</form>
+		<body>
+		<form class="cd-form" method="POST" action="searched.php">
+			<legend>Busca un libro</legend>
+			
+				<div class="error-message" id="error-message">
+					<p id="error"></p>
+				</div>
+				
+				<div class="icon">
+					<input class="m-user" type="text" name="m_libro" id="m_libro" placeholder="Ingresa un nombre"/>
+				</div>
+							
+				<br />
+				<input type="submit" name="m_buscar" value="Buscar/Ver Todos" />
+		</form>
 	</body>
 	
 	<?php
