@@ -1,0 +1,30 @@
+.regresar,
+.subir{
+    background-color: #23AECE;
+    padding:1rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+
+.regresar::before,
+.subir::before{
+    content: '';
+    display: inline-block;
+    width:14px;
+    height: 1rem;
+    background-position: top left;
+    background-size: 14px;
+    background-repeat: none;
+}
+
+
+.regresar::before{
+    background-image: url('https://img.icons8.com/ios-glyphs/30/ffffff/left.png');
+    
+}
+
+.subir::before{
+    background-image: url('https://img.icons8.com/ios-glyphs/30/ffffff/up--v1.png');
+}
